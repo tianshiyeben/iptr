@@ -22,7 +22,7 @@
 这个就比较简单了，配置文件就两个，都在resources目录下
 >1>application.properties这个里面的注释很详细了，我就不写了
 >
->2>restart_8080.sh,这个文件名称为restart_端口.sh，请将端口替换为application.properties中的端口号，如果有多个端口的话，需要添加多个sh文件，sh文件里是linux下的命令，修改就可以了
+>2>restart_8080.sh,这个文件名称为restart_端口.sh，请将端口替换为application.properties中的端口号，如果有多个端口的话，需要添加多个sh文件，sh文件里是linux下的命令，修改就可以了，别忘了给sh文件赋可执行权限
 
 
 ###最后，有问题请联系tianshiyeben@qq.com，还有别忘了点star哦
